@@ -1,0 +1,8 @@
+# @data{aydos2020,
+#   title={WebScreenshots},
+#   url={https://www.kaggle.com/ds/202248},
+#   DOI={10.34740/KAGGLE/DS/202248},
+#   publisher={Kaggle},
+#   author={Fahri Aydos},
+#   year={2020}
+# }
