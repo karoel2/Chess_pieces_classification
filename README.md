@@ -1,7 +1,9 @@
 # Chessboard-localization
 
-Generating images of chessboard in random state on random website page for training CNN. Using WebScreenshots kaggle dataset: https://www.kaggle.com/ds/202248.
+Bachelor project focused on teaching and analyzing chess. 
+One of its functionality is to recreate a chess state from a screenshot. It is done in three steps. Firstly data is processed, converted to greyscale and highlighted edges with the use of filters. Nextly the screenshot is passed to CNN to localize the chessboard. Then each cell of the original chessboard is forwarded to another CNN for multilabel object classification. 
 
+Generating images of a chessboard in a random state on a random website page for training CNN. Require downloading WebScreenshots Kaggle dataset: https://www.kaggle.com/ds/202248.
 Samples with standarized labels (class | center of object X | center of object Y | size | size)
 
 0  0.233  0.638  0.45  0.72| 0  0.456  0.38  0.288  0.462
