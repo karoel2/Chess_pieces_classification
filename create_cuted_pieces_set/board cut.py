@@ -20,6 +20,7 @@ def generate_board(threshold):
         board, w, h = img_cut(generated_board)
         img_list = img_split(board, w, h, (20,20))
         labeled(img_list, transpose_cut(labels), threshold)
+        print(LABEL_COUNT)
 
 def labeled(img_list, labels, threshold):
     global LABEL_COUNT, IDX
@@ -112,6 +113,6 @@ def img_split(img, w, h, size):
 if __name__ == "__main__":
     import time
     start = time.time()
-    generate_board(1)
+    generate_board(6000)#*13
     end = time.time()
     print(end - start)
